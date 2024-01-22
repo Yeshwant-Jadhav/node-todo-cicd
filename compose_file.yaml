@@ -1,0 +1,8 @@
+version: '3.9'
+
+services:
+  my_container:
+    
+    image: "yeshwant1502/my-note-app"
+    ports:
+      - "8000:8000"
